@@ -1,1 +1,7 @@
-# primeirod_3t
+# Terceiro Trimestre
+
+## Identificação
+Mariana Donadeli Zanelati - Nr. 21
+
+## Conteúdo
+HTML, CSS e javascript
