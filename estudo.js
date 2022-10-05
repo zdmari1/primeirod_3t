@@ -1,4 +1,4 @@
-et tabuada = 2 
+let tabuada = 2 
 
 function escreva() {
     document.write(tabuada + " x 1 = "+ (tabuada*1)+"<br>");
@@ -12,3 +12,21 @@ function escreva() {
     document.write(tabuada + " x 9 = "+ (tabuada*9)+"<br>");
     document.write(tabuada + " x 10 = "+ (tabuada*10)+"<br>");
 }
+function repete(){
+    for(let i = 0; i <= 10; i++) {
+        document.write("<br>")
+        document.write("Tabuada do " + 1 + "<br>");
+        document.write("<br>")
+        for(let j =1; j <= 10; j++){
+            document.write(i + " x " + j + " = "+(i*j)+"<br>");
+        }
+        document.write("<br>");
+    }
+}
+
+let lista = [ "Banana" , "Uva" , "Abacate" ,"Tomate"];
+
+function minhalista(){
+    document.write(lista[1]);
+}
+
